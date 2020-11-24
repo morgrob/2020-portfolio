@@ -56,7 +56,7 @@ header {
 
 
 .media-link1 {
-    width: 20px;
+    width: 20px!important;
     transition: 0.35s ease;
     margin-left: 2px;
     margin-right: 2px;
