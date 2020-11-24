@@ -1,0 +1,388 @@
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    position: relative;
+}
+main {
+    display: block;
+    position: relative;
+    padding-bottom: 800px;
+}
+/* ----------------------------------------- HEADER/NAVIGATION ------------------------------------------------*/
+h1 {
+    font-size: 3.5em;
+    font-weight: bold;
+    margin-left: 10%
+}
+h2 {
+    font-size: 1.5em;
+    margin-left: 10%;
+}
+
+#logo {
+    width: 75px;
+    margin: 10px;
+}
+
+.nav-link {
+    color: #2e2e2e !important;
+    font-size: 1.25em;
+    padding: 0 !important;
+    margin-right: 50px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    transition: 0.3s ease;
+}
+#menu {
+    width: 45px;
+}
+#active {
+    text-decoration: underline;
+}
+.navbar-collapse {
+    justify-content: center;
+}
+header {
+    background-color: white;
+}
+.nav-link:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.navbar-toggler {
+    color: #2e2e2e;
+    box-shadow: none;
+}
+.navbar-toggler:hover {
+    background-color: white;
+}
+
+/* -------------------------------------------- LANDING AREA ---------------------------------------------------*/
+
+.container-fluid-max {
+    max-width: 100%;
+  }
+.landing-button {
+    margin-left: 10%;
+}
+button {
+  background: #158BF2;
+  color: white;
+  border-radius: 50px;
+  border: none;
+  padding: 15px 30px;
+  margin-top: 15px;
+  font-size: 1.25em;
+  box-shadow: 
+        0 1px 2px rgba(0,0,0,0.07), 
+        0 2px 4px rgba(0,0,0,0.07), 
+        0 4px 8px rgba(0,0,0,0.07), 
+        0 8px 16px rgba(0,0,0,0.07),
+        0 16px 32px rgba(0,0,0,0.07), 
+        0 32px 64px rgba(0,0,0,0.07);
+    transition: 0.35s ease;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #FF7F00;
+    transform: scale(1.1);
+}
+
+.cover {
+  background: no-repeat center/cover;
+  height: 100vh;
+}
+/* --------------------------------------- HOVERABLE NAVIGABLE CARDS ----------------------------------------------*/
+
+
+#card-img {
+    width: 85%;
+    margin-right: 7.5%;
+    margin-left: 7.5%;
+    margin-top: 7.5%
+}
+.card {
+    width: 300px;
+    height: 400px;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 40px;
+    position: relative;
+    transition: .5s ease;
+    box-shadow: 
+        0 1px 2px rgba(0,0,0,0.07), 
+        0 2px 4px rgba(0,0,0,0.07), 
+        0 4px 8px rgba(0,0,0,0.07), 
+        0 8px 16px rgba(0,0,0,0.07),
+        0 16px 32px rgba(0,0,0,0.07), 
+        0 32px 64px rgba(0,0,0,0.07);
+}
+.card:hover {
+    transform: scale(1.1);
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 40px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #FF7F00;
+  }
+
+  .overlay i {
+      color: white;
+      margin-left: 3%;
+  }
+  .overlay a {
+      font-weight: bold;
+      font-size: 1.25em;
+      color: white;
+      text-decoration: underline;
+  }
+
+  .card-link {
+      margin-left: 30%;
+  }
+  .text h3 {
+      text-align: left !important;
+      font-size: 2em;
+  }
+  .text p {
+      font-size: 1.25em;
+  }
+  .text {
+      margin-top: 175px !important;
+      margin: 20px;
+      color: white;
+  }
+
+  .card:hover .overlay {
+    opacity: 0.8;
+  }
+
+  .card:hover .card-label1 {
+      opacity: 0;
+  }
+
+#column {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+#card-row {
+    height: 50vh;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.card h3 {
+    text-align: center;
+    margin-top: 15%;
+    font-weight: bold;
+
+}
+
+#card-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 3%;
+    margin-top: 100px;
+}
+/* ------------------------------------------ SINGLE CARD SECTION -------------------------------------------------*/
+
+.about-card {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    width: 80%;
+    height: 500px;
+    transition: none;
+}
+.about-card:hover {
+    transform: none;
+}
+p {
+    font-size: 1.5em;
+}
+.about-btn, .contact-btn {
+    width: 300px;
+    margin: 20px;
+    margin-top: 3%;
+}
+#button-i {
+    padding-left: 15px;
+    padding-top: 5px;
+}
+h4 {
+    text-align: center;
+    font-size: 1.15em
+}
+
+/* ------------------------------------------------- FOOTER -------------------------------------------------------*/
+
+.media-link {
+    width: 50px;
+}
+footer {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.footer-distributed {
+    background-color: #2e2e2e;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 16px sans-serif;
+    padding: 45px 50px;
+  }
+  
+  .footer-distributed .footer-left p {
+    color: #8f9296;
+    font-size: 14px;
+    margin: 0;
+  }
+  /* Footer links */
+  
+  .footer-distributed p.footer-links {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
+    transition: ease .25s;
+  }
+  
+  .footer-distributed p.footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+    transition: ease .25s;
+  }
+  
+  .footer-distributed .footer-links a:before {
+    content: "·";
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+  }
+  
+  .footer-distributed .footer-links .link-1:before {
+    content: none;
+  }
+  
+  .footer-distributed .footer-right {
+    float: right;
+    margin-top: 6px;
+    max-width: 250px;
+  }
+  
+  .footer-distributed .footer-right a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #2e2e2e;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    transition:all .25s;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  .last-link {
+      margin-left: 3px;
+  }
+  .heart {
+      color: #c93030;
+  }
+  
+  .footer-distributed .footer-right a:hover{transform:scale(1.2); -webkit-transform:scale(1.2);}
+  
+  .footer-distributed p.footer-links a:hover{text-decoration:underline;}
+  
+  /* Media Queries */
+  
+  @media (max-width: 600px) {
+    .footer-distributed .footer-left, .footer-distributed .footer-right {
+      text-align: center;
+    }
+    .footer-distributed .footer-right {
+      float: none;
+      margin: 0 auto 20px;
+    }
+    .footer-distributed .footer-left p.footer-links {
+      line-height: 1.8;
+    }
+  }
+  @media (max-width: 1350px) {
+    .card-link {
+        margin-left: 20%;
+    }
+    #card-row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+  }
+  @media (max-width: 1200px) {
+    .card-link {
+        margin-left: 20%;
+    }
+    #card-row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+  }
+  @media (max-width: 992px) {
+      main {
+          padding-bottom: 1500px;
+      }
+      .card-link {
+          margin-left: 30%;
+      }
+    #card-row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+  }
+  @media (max-width: 768px) {
+    main {
+        padding-bottom: 2000px;
+    }
+    .card-link {
+        margin-left: 30%;
+    }
+  
+}
+  @media (max-width: 600px) {
+    main {
+        padding-bottom: 2100px;
+    }
+    .card-link {
+        margin-left: 30%;
+    }
+  
+}
+@media (max-width: 480px) {
+    main {
+        padding-bottom: 2100px;
+    }
+    .card-link {
+        margin-left: 30%;
+    }
+   
+}
