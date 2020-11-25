@@ -56,10 +56,10 @@ header {
 
 
 .media-link1 {
-    width: 20px!important;
+    width: 75px;
     transition: 0.35s ease;
-    margin-left: 2px;
-    margin-right: 2px;
+    margin-left: 1px;
+    margin-right: 1px;
 }
 .media-link1:hover {
     transform: scale(1.2);
